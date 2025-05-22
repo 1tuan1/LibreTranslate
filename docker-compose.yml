@@ -15,7 +15,7 @@ services:
       # test: ['CMD-SHELL', './venv/bin/python scripts/healthcheck.py']     
     ## Uncomment above command and define your args if necessary
     # command: --ssl --ga-id MY-GA-ID --req-limit 100 --char-limit 500
-    command: --ssl --ga-id MY-GA-ID
+    command: --ssl --ga-id MY-GA-ID --req-limit 100000
     ## Uncomment this section and the libretranslate_api_keys volume if you want to backup your API keys
     environment:
       # - LT_AUTO_INSTALL_MODELS=true
