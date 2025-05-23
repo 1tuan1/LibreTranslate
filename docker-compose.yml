@@ -25,7 +25,7 @@ services:
     #   - LT_API_KEYS=true
     #   - LT_API_KEYS_DB_PATH=/app/db/api_keys.db # Same result as `db/api_keys.db` or `./db/api_keys.db`
     ## Uncomment these vars and libretranslate_models volume to optimize loading time.
-      - LT_LOAD_ONLY=en,fr,de,ru,ja,ko,zh
+    #  - LT_LOAD_ONLY=en,fr,de,ru,ja,ko,zh
     # volumes:
     #   - libretranslate_api_keys:/app/db
     # Keep the models in a docker volume, to avoid re-downloading on startup
